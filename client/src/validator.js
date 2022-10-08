@@ -1,0 +1,3 @@
+const validators = {
+  notifyFeature(data) {},
+};

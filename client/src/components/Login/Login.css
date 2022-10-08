@@ -1,0 +1,48 @@
+.body {
+  background-image: url("../../images/milk-bg\ \(3\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.column {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-wrapper {
+  width: 100%;
+  border: 2px solid #d4d4d4;
+  border-radius: 0.25rem;
+  background-color: #eeeeeec4;
+}
+.avatar {
+  max-width: 110px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.img-intro {
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+}
+
+.nav-link.active {
+  color: #f7f7f7 !important;
+  background-color: rgb(13, 110, 253) !important;
+  border-color: #dee2e6 #dee2e6 #0d6efd !important;
+}
+
+.nav-link.active:focus {
+  color: #f7f7f7 !important;
+  border-color: #dee2e6 #dee2e6 #0d6efd !important;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #0d6efd !important;
+}

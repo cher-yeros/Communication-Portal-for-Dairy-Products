@@ -1,0 +1,35 @@
+.add-product-modal {
+    width: 50vw !important;   /* Occupy the 90% of the screen width */
+    max-width: 50vw !important;
+}
+
+.add-product-modal-40 {
+    width: 40vw !important;   /* Occupy the 90% of the screen width */
+    max-width: 40vw !important;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+}
+
+.custom-badge {
+    position: fixed !important;
+    top: 9px !important;
+    background: rgb(223, 11, 11) !important;
+    border-radius: 50%;
+}
+
+.toast-not {
+    top: 4.4rem !important;
+}
+
+.away {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-weight: bold;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}

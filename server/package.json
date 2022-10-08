@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "migrate": "node models/schema",
+    "seed": "node utils/seeder"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "child_process": "^1.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "faker": "^5.5.3",
+    "firebase": "^9.7.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "multer": "^1.4.4",
+    "mysql2": "^2.3.3",
+    "mysqldump": "^3.2.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.17.0",
+    "uuid": "^3.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

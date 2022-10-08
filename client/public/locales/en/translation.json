@@ -1,0 +1,26 @@
+{
+    "view_products": "View Product",
+    "nearby_product": "Nearby Product",
+    "users": "Users",
+    "products": "Product",
+    "feedback": "Feedback",
+    "payment": "Payment",
+    "generate_report": "Generate Report",
+    "read_feedback": "Read Feedback",
+    "view_report": "View Product",
+    "manage_data": "Manage data",
+    "dashboard" : "Dashboard",
+    "seller" : "Seller",
+    "buyer" : "Buyer",
+    "admin" : "Admin",
+    "profile" : "Profile",
+    "get_info" : "Get information",
+    "contact_us" : "Contact us",
+    "home" : "Home",
+    "notify_feature" : "Notify Feature",
+    "update_chatbot" : "Update chatbot",
+    "logout" : "Logout",
+    "language": "Language",
+    "register": "Register"
+
+}

@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Girassol&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --color-primary: #f8f9fa;
+    /*--color-primary: #2d293c;*/
+    --color-primary-dark: #24222d;
+    --color-primary-light: #5a5861;
+    --color-secondary: #0d6efd;
+    --shadow-white: 0 4px 8px 0 rgba(190, 190, 190, 0.2);
+    --shadow-white-hover: 0 8px 15px 0 rgba(204, 204, 204, 0.2);
+    --shadow-black: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.left-side {
+    padding: 0;
+}
+
+#sidebar-left {
+    flex: 0 0 15rem;
+    background-color: var(--color-primary);
+    position: sticky;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+#sidebar-left .logo-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: var(--shadow-white);
+    height: 5rem;
+    grid-gap: 2rem;
+}
+
+.logo-box img {
+    width: 3rem;
+    transform: rotate(180deg);
+}
+
+.user-info {
+    width: 85%;
+    margin: .5rem auto .75rem auto;
+    
+}
+.logo-box span {
+    font-size: 1.8rem;
+    margin-left: -.7rem;
+}
+/*
+#sidebar-left .category {
+    /* border-bottom: 1px solid gray;
+    margin-bottom: 2rem; 
+}*/
+
+#sidebar-left .cat-title {
+    color: #bdbdbd;
+    font-weight: normal;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.category ul {
+    padding: 0;
+}
+
+.category ul li {
+    list-style: none;
+}
+
+.category ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: .5rem;
+    font-size: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-bottom: .3rem;
+    border-bottom: 1px solid #d4d4d4
+}
+
+.category ul li a.active {
+    background-color: var(--color-secondary);
+    color: white;
+}
+
+.category ul li a:hover {
+    background-color: var(--color-secondary);
+}
+
+.category ul li i {
+    margin: 0 1rem 0 .5rem;
+    transition: all 1s;
+    width: 1rem;
+}
+
+
+
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}    
+
+/* user-dashboard-info-box */
+.candidates-list .thumb {
+    margin-right: 20px;
+}
+.candidates-list .thumb img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 8px 0;
+}
+
+.candidates-list td {
+    vertical-align: middle;
+}
+
+td li {
+    margin: 0 4px;
+}
+
+.table thead th {
+    border-bottom: none;
+}
+
+.table.manage-candidates-top th {
+    border: 0;
+}
+
+.candidate-list-favourite-time .candidate-list-favourite {
+    margin-bottom: 10px;
+}
+
+.table.manage-candidates-top {
+    min-width: 650px;
+}
+
+.candidate-list-details ul {
+    color: #969696;
+}
+
+/* Candidate List */
+.candidate-list {
+    background: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #eeeeee;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.candidate-list:hover {
+    -webkit-box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+    box-shadow: 0px 0px 34px 4px rgba(33, 37, 41, 0.06);
+    position: relative;
+    z-index: 99;
+}
+.candidate-list:hover a.candidate-list-favourite {
+    color: #e74c3c;
+    -webkit-box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+    box-shadow: -1px 4px 10px 1px rgba(24, 111, 201, 0.1);
+}
+
+.candidate-list .candidate-list-image {
+    margin-right: 25px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 80px;
+    flex: 0 0 80px;
+    border: none;
+}
+.candidate-list .candidate-list-image img {
+    width: 80px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.candidate-list-title {
+    margin-bottom: 5px;
+}
+
+.candidate-list-details ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+}
+.candidate-list-details ul li {
+    margin: 5px 10px 5px 0px;
+    font-size: 13px;
+}
+
+.candidate-list .candidate-list-favourite-time {
+    margin-left: auto;
+    text-align: center;
+    font-size: 13px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 90px;
+    flex: 0 0 90px;
+}
+.candidate-list .candidate-list-favourite-time span {
+    display: block;
+    margin: 0 auto;
+}
+.candidate-list .candidate-list-favourite-time .candidate-list-favourite {
+    display: inline-block;
+    position: relative;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    border: 1px solid #eeeeee;
+    border-radius: 100%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #646f79;
+}
+.candidate-list .candidate-list-favourite-time .candidate-list-favourite:hover {
+    background: #ffffff;
+    color: #e74c3c;
+}
+
+.candidate-banner .candidate-list:hover {
+    position: inherit;
+    -webkit-box-shadow: inherit;
+    box-shadow: inherit;
+    z-index: inherit;
+}
+
+.bg-white {
+    background-color: #ffffff !important;
+}
+.p-4 {
+    padding: 1.5rem!important;
+}
+.mb-0, .my-0 {
+    margin-bottom: 0!important;
+}
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.candidates-list .thumb {
+    margin-right: 20px;
+}
